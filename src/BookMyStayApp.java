@@ -77,6 +77,7 @@ public class BookMyStayApp {
         // Calculate total add-on cost
         double totalCost = manager.calculateTotalCost(reservationId);
         System.out.println("Total Add-On Cost: ₹" + totalCost);
+        System.out.println("-------------------------------");
 
         // NOTE:
         // Core booking and inventory logic are NOT modified.
